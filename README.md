@@ -22,6 +22,5 @@ Follow the CLI prompt to enter a topic.
 - `logs/debate_state.json` (structured state and memory)
 - `diagrams/debate_dag.png` (generated DAG)
 
-## Notes
-- The agent implementations are deterministic template-based. You can swap them with actual LLM calls in `nodes.py`.
-- If you want a LangGraph-native implementation, tell me and I will convert the node definitions.
+  
+- The agent implementations are deterministic template-based. We can swap them with actual LLM calls in `nodes.py`.
